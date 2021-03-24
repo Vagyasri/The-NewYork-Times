@@ -6,13 +6,13 @@ header{
     color: rgb(18, 18, 18);
 }
 .img1{
-
+height:auto;
 }
 .center{
     text-align: center;
-    height:;
-    width:;
+    height:200px;
+    width:300px;
 }
 .text1{
-    
+    color:pink;
 }
