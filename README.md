@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Vagyasri/Project-1)
+[Live Demo Link](https://github.com/Vagyasri/Project-1/blob/Home_Page/accessories/Screenshot/ScreenShot1.png)
 
 
 ## Author
