@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 1
+# Project 1: Home page
 
 > One paragraph statement about the project.
 
