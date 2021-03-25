@@ -1,1 +1,5 @@
 node_modules
+.json
+.md
+.hintrc
+.DS_Store
