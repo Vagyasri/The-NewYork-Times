@@ -2,17 +2,16 @@
 
 # Project 1: Home page
 
-> One paragraph statement about the project.
+> Making a clone of the New York Times page using HTML-CSS curriculum.
 
-![screenshot](./app_screenshot.png)
+![ScreenShot1.png](./app_screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
