@@ -1,75 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 1: Home page
+# Project 1: NewYork Times HomePage
 
-> Making a clone of the New York Times page using HTML-CSS curriculum.
+> Making a clone of The NewYork Times Homepage using HTML and CSS
 
-![ScreenShot1.png](./app_screenshot.png)
+# Screenshot
 
-Additional description about the project and its features.
+### Header 
+![desktop newyorktimespage](accessories/Screenshot/ScreenShot1.png)
 
 ## Built With
 
-- HTML
-- CSS
+- Html
+- Css
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://github.com/Vagyasri/Project-1)
 
 
-## Getting Started
+## Author
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+👤 **Bhagyashree Patra**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Vagyasri)
+- Twitter: [@twitterhandle](https://twitter.com/Lucky86074644)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhagyashree-patra-029bb059/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
