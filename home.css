@@ -17,10 +17,6 @@ body {
   background-color: white;
 }
 
-#profile {
-  display: none;
-}
-
 .cen {
   text-align: center;
 }
@@ -696,22 +692,6 @@ article {
   justify-content: space-evenly;
   align-items: center;
   margin-left: 5%;
-}
-
-#hamburguer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#hamburger {
-  margin-top: 50%;
-  height: 20px;
-  width: 20px;
-  max-width: 20px;
-  display: block;
-  justify-content: center;
-  align-items: center;
 }
 
 .svg {
