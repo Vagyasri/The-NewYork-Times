@@ -1,4 +1,1 @@
-node_modules
-.json
-.hintrc
-.DS_Store
+node_modules/
