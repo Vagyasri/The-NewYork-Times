@@ -1,0 +1,1155 @@
+body {
+  margin: 0;
+  color: #333;
+  max-width: 100%;
+}
+
+.header {
+  display: grid;
+  grid-template-areas: "menu search word logo subscribe login";
+  grid-template-columns: 0.2fr 0.2fr 0.4fr 4fr 0.3fr 0.3fr;
+  grid-gap: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 4px 15px 2px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.cen {
+  text-align: center;
+}
+
+.mar {
+  margin-left: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header a {
+  text-decoration: none;
+  padding-top: 2px;
+}
+
+.recirculation {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.more-space-astronomy {
+  display: block;
+  width: 852px;
+  padding-top: 17px;
+  border-top: 1px solid #333;
+}
+
+.flex-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.flex-div > div {
+  display: block;
+  height: 288.75px;
+  width: 272.63px;
+  padding-bottom: 20px;
+}
+
+.rec-container {
+  height: 203.75px;
+  width: 272.63px;
+}
+
+.caption-wrapper {
+  width: 272.63px;
+  height: 16px;
+}
+
+.rec-image {
+  height: 181.75px;
+}
+
+.rec-image > img {
+  width: 272.63px;
+  height: 181.75px;
+}
+
+.rec-caption {
+  font-size: 10px;
+  color: grey;
+  text-align: right;
+  margin-top: 3px;
+  padding-bottom: 4px;
+}
+
+.image-title {
+  display: block;
+  width: 272.63px;
+  height: 65px;
+  padding: 0 10px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.image-title > div {
+  margin-top: 5px;
+  font: 11px "Libre Franklin", sans-serif;
+  letter-spacing: 0.5px;
+  color: rgb(167, 166, 166);
+}
+
+.more-head {
+  width: 100%;
+  font: 16px "Libre Franklin", sans-serif;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.popular {
+  display: block;
+  width: 315px;
+  padding: 20px 3% 0 3%;
+  margin-left: 30px;
+  padding-left: 15px;
+  border-top: 1px solid #333;
+}
+
+.popular-section {
+  font-size: 19px;
+  line-height: 25px;
+  border-top: 1px solid rgb(212, 212, 212);
+  padding: 15px 0 15px 0;
+}
+
+.nounderline {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(85, 84, 84);
+}
+
+.header .icon {
+  padding: 4% 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+article > p {
+  width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  margin-left: auto;
+}
+
+.wrapper > p {
+  width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  margin: 0 auto 1em auto;
+}
+
+.wrapper-flex {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper-flex > p {
+  width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  margin: auto;
+}
+
+.author {
+  margin: auto;
+  text-align: left;
+  width: 600px;
+  line-height: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.science {
+  font: 12px "Libre Franklin", sans-serif;
+  font-weight: bold;
+}
+
+.stories {
+  font: 14px "Libre Franklin", sans-serif;
+  font-style: italic;
+  color: rgb(75, 75, 75);
+}
+
+.signup {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.signupbtn {
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 105px;
+  height: 20px;
+  margin: 5px;
+  text-align: center;
+  vertical-align: text-top;
+  padding: 4px;
+  font: 15px "Libre Franklin", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.thanks {
+  font: 14px "Libre Franklin", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+
+.thanks > a {
+  color: #32689b;
+}
+
+.name {
+  font: 14px "Libre Franklin", sans-serif;
+  font-weight: bold;
+}
+
+.name > a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.date {
+  font: 13px Verdana, sans-serif;
+}
+
+aside {
+  display: block;
+  width: 210px;
+  margin: 30px auto auto 0;
+}
+
+.aside-wrapper {
+  width: 210px;
+  margin-right: auto;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.pick {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: rgb(83, 83, 83);
+}
+
+.pick > a {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 8px 8px 8px 0;
+}
+
+.nav-items a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav-items-bold a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nav-items-lite a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.nav-footer-container a {
+  color: #666;
+  font-size: 70%;
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.index-head {
+  display: flex;
+  margin: 3px 10px 10px 15px;
+  justify-content: space-between;
+}
+
+.index-head > a {
+  color: #32689b;
+  font-size: 12px;
+}
+
+.bottom-article > div > a {
+  text-decoration: underline;
+  color: rgb(150, 150, 150);
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.word {
+  grid-area: word;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 3px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14.25px;
+  letter-spacing: 0.1px;
+  line-height: 19px;
+  color: black;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.search {
+  grid-area: search;
+}
+
+.logo {
+  grid-area: logo;
+  margin: auto;
+}
+
+button {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.hr-margin {
+  margin: 0 200px 0 200px;
+}
+
+.title {
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.title-img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: left;
+  color: #666;
+  margin-right: 20%;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.credit {
+  color: #888;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+
+h2 {
+  width: 50%;
+  margin: auto;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  max-width: 700px;
+}
+
+figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.identity {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.byWho {
+  color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 900;
+}
+
+.social-media {
+  list-style: none;
+  padding-inline-start: 0%;
+  display: grid;
+  grid-template-areas: "date icons";
+  grid-template-columns: 80% auto;
+}
+
+.icons {
+  font-size: 14px;
+  display: flex;
+  justify-content: left;
+}
+
+.icons > i {
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+  margin: 10px;
+  width: 20px;
+  height: 18px;
+  background-color: rgb(231, 230, 230);
+  padding: 5px 2px 2px 2px;
+}
+
+.article-body {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.final-credit {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  margin: 0 auto 1em;
+  color: rgb(102, 102, 102);
+}
+
+.img2 {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.summary-text {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
+  color: rgb(102, 102, 102);
+}
+
+.eight-pics-diagram {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+}
+
+.pics {
+  width: 100%;
+  max-width: 250px;
+}
+
+.eight-pics-words {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #000;
+}
+
+.eight-pics-words-bold {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  padding-right: 5px;
+}
+
+.eight-pics-footer::before {
+  width: 60px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 0;
+  background-color: black;
+}
+
+.eight-pics-credit {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  margin: 0;
+}
+
+.frm {
+  width: 100%;
+  height: 315px;
+}
+
+.wid {
+  width: 100%;
+}
+
+.main-nav {
+  width: 90%;
+  margin: auto;
+}
+
+.main-nav::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-top: 30px;
+}
+
+.nav-items-bold {
+  font-weight: bolder;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+}
+
+.nav-items {
+  margin-bottom: 6px;
+}
+
+.nav-items a:hover {
+  text-decoration: underline;
+}
+
+.nav-items-bold a:hover {
+  text-decoration: underline;
+}
+
+.nav-items-lite a:hover {
+  text-decoration: underline;
+}
+
+.top-divide {
+  margin-top: 7px;
+  margin-bottom: 8px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.nav-subscribe {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 15px;
+}
+
+.nav-footer {
+  border-top: 1px solid #ebebeb;
+  margin-top: 8px;
+  padding-top: 9px;
+}
+
+.nav-footer a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  width: 600px;
+  text-align: left;
+  font-style: italic;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+hr {
+  border-top: 1px solid darkgray;
+  opacity: 0.3;
+}
+
+.p-format {
+  width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  margin: auto;
+}
+
+.flexer {
+  display: flex;
+  width: 100%;
+}
+
+.caption {
+  font: 14px Arial, Helvetica, sans-serif;
+  color: grey;
+  width: 1200px;
+  margin: auto;
+}
+
+.caption-author {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: rgb(150, 150, 150);
+}
+
+article {
+  width: 100%;
+  margin: auto;
+}
+
+. .img-container {
+  margin: auto;
+  width: 1200px;
+}
+
+.nav-top {
+  top: 0;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  padding: 5px;
+}
+
+#right-nav-container {
+  display: flex;
+  position: relative;
+  float: right;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10%;
+  max-width: 10%;
+  margin-right: 5%;
+}
+
+#middle-nav-container {
+  font: 24px "ChomskyRegular", cursive;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#left-nav-container {
+  display: flex;
+  position: relative;
+  float: left;
+  width: 14%;
+  max-width: 14%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.svg {
+  background-color: black;
+  height: 2px;
+  width: 15px;
+  margin: 2px 1px 2px 1px;
+}
+
+.blue-button {
+  border: 1px solid rgb(49, 74, 105);
+  border-radius: 2px;
+  display: inline-block;
+  padding: 8px 8px;
+  margin: 2px 2px;
+  background-color: rgb(88, 122, 167);
+  color: antiquewhite;
+  font: 11px Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.main {
+  padding-top: 50px;
+  margin: auto;
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  margin: auto;
+}
+
+.header-img {
+  margin: auto;
+  width: 1200px;
+}
+
+.img-wrapper {
+  margin: auto;
+  width: 1200px;
+}
+
+.title-icons {
+  width: 39%;
+  margin: auto;
+}
+
+aside > hr {
+  opacity: 0.8;
+  border-style: dotted;
+}
+
+.thanks > hr {
+  margin: 15px auto;
+  width: 70px;
+}
+
+/* Aside Setup */
+.empty-container {
+  width: 210px;
+  margin-right: auto;
+}
+
+.article-container {
+  width: 600px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pick > a:hover {
+  text-decoration: underline;
+}
+
+.pick-link {
+  display: flex;
+  cursor: pointer;
+  width: auto;
+}
+
+.pick-link > img {
+  margin: 10px;
+  width: 75px;
+  height: 75px;
+}
+
+.bottom-article {
+  font: 11px "Libre Franklin", sans-serif;
+  color: rgb(150, 150, 150);
+  margin: 20px 0% 50px 0%;
+}
+
+.bottom-article > div {
+  width: 600px;
+  margin: 20px auto 20px auto;
+}
+
+.bottom-article > div > a:hover {
+  text-decoration: none;
+}
+
+.button-social {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  height: 36px;
+  margin: 20px 0 20px 0;
+  vertical-align: middle;
+}
+
+.button-social > .icons {
+  color: #333;
+  vertical-align: middle;
+}
+
+.comment-button {
+  text-align: center;
+  width: 330px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  background-color: rgb(88, 122, 167);
+  color: white;
+  font: 12px Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.inflation {
+  display: block;
+  width: 945px;
+  height: auto;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+}
+
+.inflation-img {
+  width: 945px;
+  height: 576px;
+}
+
+.inflation-header {
+  display: block;
+}
+
+.inflation-header > h2 {
+  text-align: left;
+  font: 18px "Libre Franklin", sans-serif;
+  font-weight: bold;
+  margin-right: auto;
+  margin-bottom: 4px;
+  width: 945px;
+}
+
+.inflation-header > p {
+  text-align: left;
+  font-size: 14px;
+  color: rgb(122, 122, 122);
+  margin: auto;
+  width: 945px;
+}
+
+.inflation-text {
+  opacity: 0.8;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 150px;
+  column-gap: 50px;
+  position: absolute;
+  width: 985px;
+  bottom: 30px;
+}
+
+.info {
+  font: 12px "Raleway", sans-serif;
+  text-align: left;
+  width: 200px;
+}
+
+.key-word {
+  font-weight: bold;
+  font-size: 10px;
+  margin: 1px;
+}
+
+.inflation-foot {
+  margin: auto;
+  margin-bottom: 50px;
+  font-size: 14px;
+  text-align: left;
+  width: 985px;
+}
+
+.inflation-foot > hr {
+  display: flex;
+  width: 10%;
+  color: black;
+  opacity: 1;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+iframe {
+  margin: auto;
+  width: 600px;
+  height: 315px;
+}
+
+.video-caption {
+  font: 14px Arial, Helvetica, sans-serif;
+  color: grey;
+  margin: auto auto 25px auto;
+  padding-right: 107px;
+  width: 500px;
+}
+
+.spacecosmos {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.spacecosmos:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cosmos-img {
+  width: 720px;
+  height: 481px;
+  margin: auto;
+}
+
+.cosmos {
+  width: 728px;
+  margin: auto;
+}
+
+.cosmos > figcaption {
+  width: 728px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.paragraph-link {
+  text-decoration: underline;
+  color: #32689b;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.index {
+  display: block;
+  margin: auto;
+  width: 1200px;
+}
+
+.index > hr {
+  height: 2px;
+  border-top: 2px solid rgb(167, 167, 167);
+  border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+.index-head > svg {
+  height: 25px;
+}
+
+.suscribe {
+  width: 200px;
+  border-left: 1px solid rgb(219, 219, 219);
+  padding-left: 15px;
+}
+
+.index-list {
+  display: flex;
+  margin: 0 10px 10px 15px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.index-links {
+  display: flex;
+  text-decoration: none;
+  font: 13px "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.index-titles {
+  font: 13px "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.list-style {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  white-space: nowrap;
+}
+
+.svgs {
+  font-size: 12px;
+  width: 13px;
+  height: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.css-r5ic95 {
+  width: 13px;
+  height: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.footer-links {
+  color: rgb(167, 167, 167);
+  text-decoration: none;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+.sub-nav {
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  border-top: 1px solid #333;
+  padding: 5px;
+  height: 35px;
+  margin: auto;
+}
+
+.subscription {
+  margin: auto auto auto 42%;
+}
+
+.exp-button {
+  margin: auto 300px auto auto;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.css-8xcdch {
+  margin: auto auto auto 30px;
+  transition: transform 500ms ease 0s;
+  transform: rotate(-90deg);
+}
+
+.nav-footer-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  margin-bottom: 30px;
+  grid-gap: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    display: grid;
+    grid-template-areas: "menu logo profile";
+    grid-template-columns: 0.2fr 4fr 0.3fr;
+  }
+
+  .subscribe {
+    display: none;
+  }
+
+  .word {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  #profile {
+    grid-area: profile;
+    display: grid;
+    margin-top: 20%;
+  }
+
+  .header #profile {
+    grid-area: profile;
+  }
+
+  .menu {
+    margin-top: 15%;
+  }
+
+  .title h2 {
+    width: 100%;
+    margin: auto;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 3rem;
+    max-width: 600px;
+  }
+
+  .title figcaption {
+    margin-left: 5%;
+  }
+
+  .identity {
+    width: 90%;
+  }
+
+  .article-body {
+    width: 90%;
+  }
+
+  .eight-pics-diagram {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+
+  .social-media {
+    padding-inline-end: 15%;
+  }
+
+  .nav-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    grid-gap: 20px;
+  }
+
+  .nav-items-bold {
+    padding-bottom: 5px;
+  }
+
+  .nav-footer-container {
+    grid-template-columns: auto auto auto;
+  }
+}
